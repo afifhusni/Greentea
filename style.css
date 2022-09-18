@@ -1,0 +1,515 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.btn-success {
+  font-size: 15px;
+  padding: 7px 36px 7px 36px;
+  border-radius: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.btn-success a {
+  font-size: 15px;
+  padding: 7px 36px 7px 36px;
+  border-radius: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  color: #7A7A7A;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+/*Navbar*/
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.nav-link {
+  font-weight: 550;
+  margin-right: 25px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(jumbotron.png);
+  height: 100vh;
+  margin-top: -65px;
+  background-size: cover;
+}
+
+.display-4 {
+  font-weight: 800;
+  font-size: 325%;
+  color: white;
+  text-align: center;
+  line-height: 1.1;
+  font-weight: 1000;
+}
+
+.lead {
+  color: white;
+  text-align: center;
+  font-size: 95%;
+  font-weight: 500;
+}
+
+.display-4 span {
+  color: #4D8B55;
+}
+
+/* About Us */
+#about {
+  margin-top: 130px;
+  margin-bottom: 100px;
+  padding-top: 30px;
+}
+
+#about h2 {
+  margin-bottom: 20px;
+}
+
+#about img {
+  border: 5px solid white;
+}
+
+#about span {
+  color: #4D8B55;
+}
+
+/* Rate */
+#rate {
+  margin-bottom: 180px;
+}
+
+#rate .card {
+  border-radius: 15px;
+}
+
+#rate i {
+  color: #4D8B55;
+}
+
+#rate .card-text {
+  font-size: 13px;
+  padding: 0px 10px;
+}
+
+/* Gallery */
+.gallery {
+  background-image: url(gallery/background3.png);
+  height: 100%;
+  margin-bottom: 130px;
+  padding-top: 5px;
+}
+
+.fa-eye {
+  margin-right: 5px;
+}
+
+/* Quality */
+.quality i {
+  color: #4D8B55;
+}
+
+.quality h3 {
+  font-weight: 900;
+  color: #3a3a3a;
+}
+
+.quality .col-md-9 {
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.quality .col-md-9 p {
+  padding: 0px 30px;
+}
+
+/* Products */
+.products {
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.products h2 {
+  margin-bottom: 65px;
+  margin-top: 80px;
+  color: #222D35;
+  padding-top: 30px;
+}
+
+/* Modal Products */
+.carousel-control-prev-icon {
+  background-color: #4D8B55;
+}
+
+.carousel-control-next-icon {
+  background-color: #4D8B55;
+}
+
+#carouselExampleSlidesOnly {
+  justify-content: center;
+}
+
+#productModal1 td {
+  color: #6D7882;
+}
+
+#productModal2 td {
+  color: #6D7882;
+}
+
+#productModal3 td {
+  color: #6D7882;
+}
+
+/* Contact */
+.contact {
+  background-color: #151515;
+  padding-bottom: 100px;
+  margin-top: 50px;
+}
+
+.contact h3 {
+  color: #4D8B55;
+  font-weight: 900;
+  font-size: 22px;
+  margin-top: 95px;
+}
+
+.contact p {
+  font-size: 14px;
+  color: #bbb;
+  font-weight: 700;
+}
+
+.contact i {
+  color: #4D8B55;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact-us:hover {
+  opacity: 0.8;
+}
+
+/* Follow Us */
+.wrapper {
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+.wrapper-facebook {
+  margin-left: -12px;
+}
+
+.wrapper .icon {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.wrapper .icon span {
+  height: 40px;
+  width: 40px;
+  display: block;
+  background-color: #4D8B55;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  text-align: center;
+}
+
+.wrapper .icon span i {
+  line-height: 40px;
+  color: #000;
+}
+
+.wrapper .facebook:hover span,
+.wrapper .instagram:hover span,
+.wrapper .linkedin:hover span,
+.wrapper .twitter:hover span {
+  background-color: #000;
+}
+
+.wrapper .facebook:hover span i,
+.wrapper .instagram:hover span i,
+.wrapper .linkedin:hover span i,
+.wrapper .twitter:hover span i {
+  color: #4D8B55;
+}
+
+/* Footer */
+.container-footer {
+  color: #aaafb8;
+  background-color: #000;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+/* Icon WA */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 5px #999;
+  z-index: 100;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* Whatsapp icon for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 15px;
+  }
+
+  .whatsapp_float {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
+
+  .quality img {
+    margin-bottom: 100px;
+  }
+
+  .contact {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .wrapper-facebook {
+    margin-left: -10px;
+  }
+
+  .contact .col-md-4 {
+    margin-top: -30px;
+  }
+
+  .contact .address {
+    margin-top: -40px;
+  }
+
+  .contact .working-hours {
+    margin-top: -40px;
+  }
+
+  .sub-working {
+    margin-top: -40px;
+  }
+
+}
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) {
+  .navbar-brand {
+    color: white !important;
+  }
+
+  .judul {
+    padding-top: 200px;
+  }
+
+  .display-4 {
+
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  .nav-link {
+    color: white !important;
+  }
+
+  .quality p {
+    text-align: start;
+  }
+
+  .quality .col-md-9 {
+    text-align: start;
+  }
+
+  .quality .col-md-9 p {
+    padding: 0px;
+  }
+
+  #icons-wa {
+    padding-left: 93%;
+  }
+
+  #productModal1 h3 {
+    margin-left: 25px;
+  }
+
+  #productModal2 h3 {
+    margin-left: 25px;
+  }
+
+  #productModal3 h3 {
+    margin-left: 25px;
+  }
+
+  #productModal1 .carousel {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  #productModal2 .carousel {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  #productModal3 .carousel {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  #productModal1 p {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  #productModal2 p {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  #productModal3 p {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+}
+
+
+/* Mobile */
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #000;
+  }
+
+  #about img {
+    margin-top: 20px;
+  }
+
+  #rate .col-md-4 {
+    margin-top: 30px;
+  }
+
+  .products .btn-success {
+    margin-bottom: 90px;
+  }
+
+  #productModal1 p {
+    font-size: 13px;
+  }
+
+  #productModal2 p {
+    font-size: 13px;
+  }
+
+  #productModal3 p {
+    font-size: 13px;
+  }
+
+}
+
+/* Mobile Small */
+@media (max-width: 389px) {
+  .judul {
+    padding-top: 50%;
+  }
+
+  .lead {
+    font-size: 75%;
+  }
+}
+
+/* Keyframs */
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+/* Keyframes animation */
+.slide-top {
+  animation: slide-top .5s cubic-bezier(.25, .46, .45, .94) both
+}
+
+.slide-bottom {
+  animation: slide-bottom .5s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(0)
+  }
+
+  100% {
+    transform: translateY(100px)
+  }
+}
